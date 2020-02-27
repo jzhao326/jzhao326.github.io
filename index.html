@@ -1,82 +1,105 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jitian Zhao</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jitian Zhao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Jitian Zhao's personal site" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  
+  </head>
+  <body>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Jitian Zhao<br />
-						</h1>
-						<p>Welcome to my personal website! </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Jitian Zhao</a>
+        </div>
+      </div>
+    </nav>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Home</a>
-					</header>
+    <div class="container">
+      <div class="row main">
+        <div class="col-md-2">
+          <div class="bigskip"></div>
+          <img src="static/jitianZhao.jpg" alt="Jitian Zhao" />
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Projects</a></li>
-							<li><a href="about.html">about</a></li>
-						</ul>
+          <div class="bigskip"></div>
 
-					</nav>
+          <h5>Contact</h5>
+          <p><a href="jzhao326@wisc.edu">jzhao326@wisc.edu</a></p>
 
-				<!-- Main -->
-					<div id="main">
+          <div class="smallskip"></div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Welcome!</h2>
-								</header>
-								<p><span class="image left"><img src="images/pic_disney.jpg" alt="" /></span>
-									<header>
-											<h3>Academic experience</h3>
-											<p>I am a master student major in statistics at UW-Madison. Before that, I graduated from Zhejiang University with a B.S. in statistics. Please check my <a href="documents/CV_Jitian_Zhao.pdf"> CV </a> for further information.
-									</header> 
-									<header>
-											<h3>Research interest</h3>
-											<p>My primary research interests are machine learning algorithms and their applications to sequence-based data such as texts and genes. I am especially interested in natural language processing under different contexts, but open to other research topics such as high-dimensional inference and semi-parametric models as well.</p> 
-									</header> 
-							</article>
-						</section>
+          <h5>Links</h5>
+          <p><a href="https://github.com/jzhao326" target="_blank">GitHub</a></p>
+          <p><a href="https://www.linkedin.com/in/jitian-zhao-931b5a175/" target="_blank">LinkedIn</a></p>
 
+        </div>
+        <div class="col-md-7">
+          <div class="info">
+            <div class="info-panel">
+              <h3>About</h3>
+  	          <p>
+                I'm a second-year master's student major in Statistics at <a href="https://stat.wisc.edu/">the University of Wisconsin-Madison</a>.
+                My research focuses on machine learning, with an emphasis on sequence data processing and theoretical support for neural network architectures.
+                I'm also interested in high-dimensional inference and network analysis. I am now working with <a href="https://sebastianraschka.com/">Dr. Sebastian Raschka</a> on biomedical applications of Transformer model.
+              </p>
 
+              <p>
+                Prior to that, I graduated from Zhejiang University with a B.S. in statistics. My full cv can be found <a href="documents/CV_Jitian_Zhao.pdf">here</a>.
+              </p>
+
+            </div>
+
+            <div class="info-panel">
+              <h3>Projects</h3>
 				
-
+				<p>
+								<strong>Generating Amino Acid Sequence for Protein Synthesis</strong><br />
+								Collaborative research project (Prof. Raschka and Prof. Romero)<br />
 				
+				This project focuses on synthesizing protein from a certain family using deep learning models and could be potentially used to design protein with desired properties. To this end, I implement the Char-RNN and the transformer model using PyTorch.<br />
+				<ul>
+					<li><a href="documents/aa_sequence.pdf">Weekly report 1</a></li>
+					<li><a href="documents/aa_sequence_2nd.pdf">Weekly report 2</a></li>
+					<li><a href="documents/aa_sequence_3rd.pdf">Weekly report 3</a></li>
+					<li><a href="documents/aa_sequence_4th.pdf">Weekly report 4</a></li>
+					<li><a href="documents/aa_sequence_5th.pdf">Weekly report 5</a></li>
+					<li><a href="documents/transformer_xl.pdf">Journal Club: Transformer-XL</a></li>
+					<li><a href="documents/aa_sequence_7th.pdf">Weekly report 7</a></li>
+					<li><a href="documents/GAT.pdf">Journal Club: Graph Attention Networks</a></li>
+					</ul>
+				</p>
 
-			</div>
+              <p>
+				<strong>Tweet Sentiment Analysis</strong><br />
+				Deep learning course project under the supervision of Prof. Sebastian Raschka.<br />
+				<ul>
+						<li><a href="documents/479_DL_proposal.pdf">Proposal</a></li>
+						<li><a href="documents/Sentiment_analysis.pdf">Presentation Slides</a></li>
+						<li><a href="documents/479_DL_REPORT.pdf">Report</a></li>
+						</ul>	
+			</p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              <p>
+					<strong>Yelp Business Analysis</strong><br />
+					Data science course project under the supervision of Prof. Hyunseung Kang.<br />
+					<ul>
+							<li><a href="documents/yelp_1.pdf">Presentation Slides 1</a></li>
+							<li><a href="documents/yelp_2.pdf">Presentation Slides 2</a></li>
+							<li><a href="documents/Yelp_Report.pdf">Report</a></li>
+							<li><a href="https://ylingbfcalculator.shinyapps.io/Yelp_data_analysis/">Shiny App</a></li>
+							</ul>	
+              </p>
 
-	</body>
+          </div>
+        </div> <!-- right col -->
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
